@@ -72,3 +72,44 @@ header {
   background-color: white;
   padding: 1.5rem 5rem;
 }
+
+/*Info Section*/
+figure {
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+figcation {
+  display: block;
+  text-align: center;
+  vertical-align: bottom;
+}
+.infocontainer {
+  display: flex;
+  justify-content: center;
+}
+.info {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#paper {
+  width: 3.5rem;
+/*Tried setting height to auto, but it didn't look porportionate to the redline*/
+  height: 5rem;
+}
+#ruler {
+  width: 5rem;
+  height: 2.5rem;
+}
+#truck {
+  width: 5rem;
+  height: 3rem;
+}

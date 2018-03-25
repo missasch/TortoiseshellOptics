@@ -54,6 +54,9 @@ header {
 .navbar li {
   padding-right: 2rem;
 }
+.hidemenu {
+  display: none;
+}
 .textcontainer {
   width: 960px;
   position: relative;
@@ -161,4 +164,105 @@ footer {
 .containerf p {
   padding-left: 1rem;
   align-self: center;
+}
+/*Media Queries*/
+@media only screen and (max-width: 1024px) {
+    main {
+      height: 22rem;
+      width: auto;
+    }
+    .sitecontainer {
+    width: 100%;
+    }
+    .looktext {
+      font-size: 1.33rem;
+      padding: 0.75rem 4rem;
+    }
+    .textcontainer {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+      top: 5rem;
+      right: 2rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    main {
+      height: 17rem;
+      background-position: 20%;
+    }
+    .hidemenu {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .menu {
+      display: none;
+    }
+    header h3 {
+      display: none;
+    }
+    .sitecontainer {
+    width: 100%;
+    }
+    .looktext {
+      width: 100%;
+      font-size: 1rem;
+      text-align: center;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+
+    }
+    .textcontainer {
+      position: relative;
+      top: 9rem;
+      right: 0;
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 2.23rem; /*with the 1.54rem from the figure this equals 3.77rem*/
+      padding-bottom: 3.77rem;
+    }
+    figure {
+      width: 100%;
+      height: auto;
+      padding-top: 1.54rem;
+    }
+    figcaption {
+      font-size: 0.77rem;
+      padding-top: 1.54rem;
+    }
+    .textcontainer img {
+      padding-top: 1.54rem;
+    }
+    .appts {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 0;
+    }
+    .appts1 {
+      width: 100%;
+    }
+    .appts1 h2 {
+      width: 100%;
+      text-align: center;
+    }
+    .appts1 p {
+      padding-top: 1rem;
+      padding-left: 0.5rem;
+      padding-bottom: 4rem;
+      text-align: left;
+      font-size: 0.77rem;
+    }
+    .containerf {
+      padding-left: 0;
+      justify-content: center;
+
+    }
+    footer p {
+      display: none;
+    }
 }

@@ -113,3 +113,52 @@ figcation {
   width: 5rem;
   height: 3rem;
 }
+
+/*Appts Section*/
+.apptscontainer {
+  display: flex;
+  justify-content: center;
+}
+.appts {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+.appts h2 {
+  width: 10rem;
+  background-color: cadetblue;
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+.appts p {
+  padding-top: 1rem;
+}
+.appts1 {
+  width: 35%;
+  padding-right: 5%;
+}
+
+/*Footer Section*/
+footer {
+  display: flex;
+  justify-content: center;
+}
+.containerf {
+  width: 960px;
+  background-color: azure;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.containerf p {
+  padding-left: 1rem;
+  align-self: center;
+}
